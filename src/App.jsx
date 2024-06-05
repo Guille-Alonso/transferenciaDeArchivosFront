@@ -33,7 +33,7 @@ function App() {
         })
         .catch((error) => {
           // toast.error("Algo salio mal :(")
-          console.log(error(error));
+         console.log(error);
         });
     }
   }
@@ -65,7 +65,7 @@ function App() {
       <h2>Transferencia de archivos con NodeJS y Multer</h2>
       <form
         id="myForm"
-        action="http://localhost:4000/noticias/alta"
+        action="https://estadisticas.smt.gob.ar:1200/noticias/alta"
         enctype="multipart/form-data"
         method="POST"
         onSubmit={submitForm}
