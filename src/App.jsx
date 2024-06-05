@@ -65,7 +65,7 @@ function App() {
       <h2>Transferencia de archivos con NodeJS y Multer</h2>
       <form
         id="myForm"
-        action="https://estadisticas.smt.gob.ar:1200/noticias/alta"
+        action="http://localhost:3000/noticias/alta"
         enctype="multipart/form-data"
         method="POST"
         onSubmit={submitForm}
@@ -87,7 +87,7 @@ function App() {
           className="btn btn-success mt-3"
           type="submit"
           value="Upload your files"
-          // onClick={submitForm}
+          onClick={submitForm}
         >
           enviar archivos
         </button>
@@ -97,3 +97,5 @@ function App() {
 }
 
 export default App
+
+

@@ -1,7 +1,7 @@
 import axiosOriginal from "axios";
 
 const axios = axiosOriginal.create({
-   baseURL: "https://estadisticas.smt.gob.ar:1200",
+   baseURL: "http://localhost:3000",
 });
 
 
